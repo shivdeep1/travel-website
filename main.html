@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Aquarius Travels</title>
+	<link rel="icon" href="img/logo.jpg">
+	<link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
+	<meta http-equiv="refresh" content="4; url=index.html">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #000;
+			overflow-y: hidden;
+		}
+		svg {
+			width: 100vh;
+			height: 100vh;
+			margin-top: 40px;
+			position: absolute;
+			top: 50%;
+			left: 40%;
+			transform: translate(-45%, -50%);
+		}
+		text {
+			font-size: 60px;
+			font-family: 'Montez', cursive;
+			stroke: #fff;
+			stroke-width: 1px;
+			fill: none;
+			stroke-dasharray: 480;
+			stroke-dashoffset: 480;
+			animation: write 4s linear infinite;
+			transform: skewY(-4deg);
+		}
+		@keyframes write {
+			to {
+				stroke-dashoffset: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+    
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <g>
+            <text x="50%" y="50%">Aquarius Travels</text>
+        </g>
+    </svg>
+
+</body>
+</html>

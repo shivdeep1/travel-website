@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AQUARIUS TRAVELS</title>
+    <link rel="stylesheet" href="main.css">
+    
+    <script src="main.js"></script>
+ 
+</head>
+<body onmousewheel="opac()" bgcolor="lightgrey">
+    <div class="container">
+        <div class="navbar" id="nav">
+            <div class="left-header">
+                <ul>
+                    <li><a id="top "href="">Home</a></li>
+                    <li><a href="#p1">Service</a></li>
+                    <li><a href="#vacation">Top deals</a></li>
+                    <li><a href="#pack">Package </a></li>
+                    <li><a href="#gal">Gallery </a></li>
+                </ul>
+            </div>
+            <img src="images/logo.png" height="50px" width="140px">
+            <div class="right-header">
+                <ul>
+                    <li><a href="#fot">About Us</a></li>
+                    <li><a href="#fot">Support</a></li>
+                    <li><a href="#fot">Login</a></button></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="modal-wrapper" class="modal">
+  
+            <form class="modal-content animate" action="/action_page.php">
+                  
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
+                <img src="1.png" alt="Avatar" class="avatar">
+                <h1 style="text-align:center">Modal Popup Box</h1>
+              </div>
+          
+              <div class="container">
+                <input type="text" placeholder="Enter Username" name="uname">
+                <input type="password" placeholder="Enter Password" name="psw">        
+                <button type="submit">Login</button>
+                <input type="checkbox" style="margin:26px 30px;"> Remember me      
+                <a href="#" style="text-decoration:none; float:right; margin-right:34px; margin-top:26px;">Forgot Password ?</a>
+              </div>
+              
+            </form>
+            
+          </div>
+        <div class="carousel">
+            <img src="images/back.png" height="55px" width="50px" id="prev_pic" onclick="change_slide(-1)">
+            <video src="videos/singapore2.mp4" autoplay="true" loop="true"  width="113%" height="810px" id="slider">
+            </video>
+            
+            <img src="images/next.png" height="55px" width="50px" id="next_pic" onclick="change_slide(1)">
+        </div>
+        <a href="#top">
+            <img id="butt" src="images/home_button3.png">
+        </a>
+       <div class='card-div' id="p1">
+            <h1>Our Services</h1>
+            <p>Services we provide</p>
+            <div class="card-container">
+                <div class="card">
+                    <img src="images/aeroplane.png" height="80px" width="80px" align="middle">
+                    <h1>Flight Booking</h1>
+                    <p>Flight Booking paragraph text.</p><br>
+                </div>
+                <div class="card">
+                    <img src="images/hotel.png" height="80px" width="80px" align="middle">
+                    <h1>Hotel Booking</h1>
+                    <p>Flight Booking paragraph text.</p><br>
+                </div>
+                <div class="card">
+                    <img src="images/ship.png" height="80px" width="80px" align="middle">
+                    <h1>Cruise Booking</h1>
+                    <p>Flight Booking paragraph text.</p><br>
+                </div>
+                <div class="card">
+                    <img src="images/visa.png" height="80px" width="80px" align="middle">
+                    <h1>Visa</h1>
+                    <p>Flight Booking paragraph text.</p><br>
+                </div>
+                <div class="card">
+                    <img src="images/train.png" height="80px" width="80px" align="middle">
+                    <h1>Rail Booking</h1>
+                    <p>Flight Booking paragraph text.</p><br>
+                </div>
+                <div class="card">
+                    <img src="images/Tickets.png" height="80px" width="80px" align="middle">
+                    <h1>Ticket Booking</h1>
+                    <p>Flight Booking paragraph text.</p><br>
+                </div>
+            </div>
+        </div>
+        <div class="choose" id="vacation">
+            <h1 id="header1">VACATION PACKAGES</h1>
+            <p id="para1">
+                Amazing deals on international holiday packages..<br>
+                <br>
+                <b><i>Book now from: </i>$100.00 </b><sub>ppx</sub>
+            </p>
+        </div>
+
+        <div class="packages" id="pack">
+            <h1 id="header"><b>Tour Packages<br>. . .</h1>
+            <p id="para">Amazing deals on international holiday packages..</p></b>
+
+            <div class="card4" >
+                <img id="can" src="images/canada.jpg" height="50%" width="100%" align="middle">
+                <div class="card42">
+                <h1>Canada</h1>
+                <p>Canada  is a country in the northern part of North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean.  </p>
+            </div>
+
+            </div>
+
+            <div class="card4">
+                <img id="can" src="images/maldives.jpg" height="50%" width="100%" align="middle">
+                <h1>Maldives</h1>
+                <p>Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs. The island is home to religious sites such as cliffside Uluwatu Temple.</p>
+
+            </div>
+
+            <div class="card4">
+                <img id="can" src="images/italy.jpg" height="50%" width="100%" align="middle">
+                <h1>Italy</h1>
+                <p>Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins.</p>
+
+            </div>
+        </div>
+
+        <div class="packages" id="gal">
+        <b><h1 id="header">Gallery<br><b>. . .</b></h1>
+            <p id="para">Amazing deals on international holiday packages..</p></b>
+
+            <div class="card6">
+                <img id="can" src="images/heart.jpg" height="100%" width="100%" align="middle">
+            </div>
+
+            <div class="card6">
+                <img id="can" src="images/gallery2.jpg" height="100%" width="100%" align="middle">
+                
+            </div>
+
+            <div class="card6">
+                <img id="can" src="images/gallery3.jpg" height="100%" width="100%" align="middle">
+                
+            </div>
+        </div>
+
+        <div class="footer" id="fot">
+          
+
+            <div class="card5">
+
+                <img src="images/footer_logo.png" height="80%" width="80%" align="middle">
+            </div>
+            <div class="card5">
+
+                <button onclick="document.getElementById('modal-wrapper').style.display='block'" style="width:200px; margin-top:200px; margin-left:160px;">Login</button>
+            </div>
+            <div class="card5">
+
+                <h1>Contact Us</h1><br>
+                
+               
+                <a href="https://www.twitter.com">
+                    <img src="images/twitter.png" height="10%" width="10%" align="middle">
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img src="images/fb.png" height="10%" width="10%" align="middle">
+                </a>
+                <a href="https://www.pinterest.com">
+                    <img src="images/pinterest.png" height="10%" width="10%" align="middle">
+                </a>
+                   <a href="https://www.instagram.com">
+                        <img src="images/insta.png" height="10%" width="10%" align="middle">
+                    </a>
+</div>
+        </div>
+    </div>
+</body>
+</html>
